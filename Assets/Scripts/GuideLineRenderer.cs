@@ -1,14 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-/// <summary>
+
 /// LINE RENDERER feature.
-/// Draws a glowing line from a fixed "guide" point (e.g. the teacher's desk or
-/// the camera area) to the NEXT skill station the player should complete.
-/// Hides itself once every station is done.
-///
-/// Attach to an object with a LineRenderer (e.g. an empty "Guide" object).
-/// </summary>
+
 [RequireComponent(typeof(LineRenderer))]
 public class GuideLineRenderer : MonoBehaviour
 {
@@ -34,7 +29,7 @@ public class GuideLineRenderer : MonoBehaviour
         if (startPoint == null) startPoint = transform;
 
         if (stations.Count == 0)
-            stations.AddRange(FindObjectsByType<SkillStation>(FindObjectsSortMode.None));
+            stations.AddRange(FindObjectsByType<SkillStation>());
     }
 
     private void Update()
@@ -52,7 +47,7 @@ public class GuideLineRenderer : MonoBehaviour
         line.SetPosition(1, next.transform.position + Vector3.up * heightOffset);
     }
 
-    /// <summary>Return the first station that is not yet completed.</summary>
+    //Return the first station that is not yet completed.
     private SkillStation GetNextStation()
     {
         foreach (SkillStation s in stations)

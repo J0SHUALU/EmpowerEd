@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
+
 /// Central brain of the simulation. Tracks how many skill stations the player
 /// has completed and decides when the player has "graduated" (win condition).
 /// Other scripts talk to this single instance.
-/// </summary>
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         uiManager?.UpdateProgress(stationsCompleted, totalStations);
     }
 
-    /// <summary>Called by a SkillStation when its lesson is finished correctly.</summary>
+    //Called by a SkillStation when its lesson is finished correctly.
     public void CompleteStation()
     {
         stationsCompleted++;
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
             uiManager?.ShowWinScreen();
     }
 
-    /// <summary>Hooked to the "Restart" button on the win screen.</summary>
+    //Hooked to the "Restart" button on the win screen.
     public void RestartGame()
     {
         Time.timeScale = 1f;
