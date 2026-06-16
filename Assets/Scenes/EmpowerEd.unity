@@ -745,7 +745,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1500207622}
+    m_TransformParent: {fileID: 1258046736}
     m_Modifications:
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Name
@@ -1777,7 +1777,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1500207622}
+    m_TransformParent: {fileID: 1258046736}
     m_Modifications:
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Name
@@ -4099,7 +4099,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1500207622}
+    m_TransformParent: {fileID: 1258046736}
     m_Modifications:
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Name
@@ -4111,15 +4111,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4045696219899550, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.501376
+      value: 0.152
       objectReference: {fileID: 0}
     - target: {fileID: 4045696219899550, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5384583
+      value: -5.616
       objectReference: {fileID: 0}
     - target: {fileID: 4045696219899550, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.415686
+      value: 11.497
       objectReference: {fileID: 0}
     - target: {fileID: 4045696219899550, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7567,6 +7567,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4298426239591592, guid: 5c2334af47df6454c9e2eaadbfaa2cb0, type: 3}
   m_PrefabInstance: {fileID: 1248776936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1258046735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1258046736}
+  m_Layer: 0
+  m_Name: Stations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1258046736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258046735}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 365724414}
+  - {fileID: 195150203}
+  - {fileID: 627591247}
+  - {fileID: 1891273594}
+  m_Father: {fileID: 1500207622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271065011
 GameObject:
   m_ObjectHideFlags: 0
@@ -8830,10 +8865,7 @@ Transform:
   - {fileID: 2017473468}
   - {fileID: 1306060702}
   - {fileID: 1627004301}
-  - {fileID: 365724414}
-  - {fileID: 195150203}
-  - {fileID: 627591247}
-  - {fileID: 1891273594}
+  - {fileID: 1258046736}
   - {fileID: 15401076}
   - {fileID: 435591501}
   - {fileID: 1553337068}
@@ -9626,14 +9658,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillStation
-  stationName: Budgeting
-  question: You get paid. What should you do FIRST?
+  stationName: Job & CV
+  question: What belongs on a CV?
   answers:
-  - Spend it all
-  - Save some, then budget
-  - Lend it away
-  correctIndex: 1
-  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  - Your skills and experience
+  - Your favourite movies
+  - Nothing personal at all
+  correctIndex: 0
+  teachingNote: A CV shows employers your skills and experience, it's your ticket
+    to an interview.
   completedMarker: {fileID: 0}
   stationRenderer: {fileID: 0}
   completedColor: {r: 0, g: 1, b: 0, a: 1}
@@ -10078,7 +10111,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1500207622}
+    m_TransformParent: {fileID: 1258046736}
     m_Modifications:
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Name
@@ -10167,14 +10200,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillStation
-  stationName: Budgeting
-  question: You get paid. What should you do FIRST?
+  stationName: Reading & Literacy
+  question: ' Why is practising reading every day useful?'
   answers:
-  - Spend it all
-  - Save some, then budget
-  - Lend it away
+  - It just wastes time
+  - It opens jobs and information
+  - Only children need it
   correctIndex: 1
-  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  teachingNote: Reading unlocks jobs, forms, and information, one of the most powerful
+    life skills.
   completedMarker: {fileID: 0}
   stationRenderer: {fileID: 0}
   completedColor: {r: 0, g: 1, b: 0, a: 1}
@@ -11494,14 +11528,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillStation
-  stationName: Budgeting
-  question: You get paid. What should you do FIRST?
+  stationName: Hygiene & Health
+  question: What's the best simple way to prevent illness?
   answers:
-  - Spend it all
-  - Save some, then budget
-  - Lend it away
+  - Skip meals to save money
+  - Wash hands and stay clean
+  - Avoid sleeping
   correctIndex: 1
-  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  teachingNote: Clean hands and good hygiene prevent disease and keep you healthy
+    enough to work.
   completedMarker: {fileID: 0}
   stationRenderer: {fileID: 0}
   completedColor: {r: 0, g: 1, b: 0, a: 1}
