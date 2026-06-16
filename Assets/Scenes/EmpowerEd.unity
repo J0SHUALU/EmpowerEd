@@ -749,7 +749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Name
-      value: book15 (1)
+      value: Job/CV
       objectReference: {fileID: 0}
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Layer
@@ -806,7 +806,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1703817685}
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1703817684}
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1703817683}
   m_SourcePrefab: {fileID: 100100000, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
 --- !u!4 &195150203 stripped
 Transform:
@@ -1772,7 +1781,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Name
-      value: book15
+      value: Station_Budgeting
       objectReference: {fileID: 0}
     - target: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
       propertyPath: m_Layer
@@ -1829,7 +1838,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1307249609}
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1307249608}
+    - targetCorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1307249607}
   m_SourcePrefab: {fileID: 100100000, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
 --- !u!4 &365724414 stripped
 Transform:
@@ -4085,7 +4103,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Name
-      value: book (1)
+      value: 'Hygiene & Health '
       objectReference: {fileID: 0}
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Layer
@@ -4142,7 +4160,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971600499}
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971600498}
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971600497}
   m_SourcePrefab: {fileID: 100100000, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
 --- !u!4 &627591247 stripped
 Transform:
@@ -6563,6 +6590,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4558593196022300, guid: 991e8973513e2ad408232c1afeb3a9df, type: 3}
   m_PrefabInstance: {fileID: 991467342}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1014626437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+  m_PrefabInstance: {fileID: 1891273593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1016545222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7727,6 +7759,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4240109998300524, guid: 405988af1bd38ee4fb92e86058b6c926, type: 3}
   m_PrefabInstance: {fileID: 1306060701}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307249604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+  m_PrefabInstance: {fileID: 365724413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1307249607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307249604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillStation
+  stationName: Budgeting
+  question: You get paid. What should you do FIRST?
+  answers:
+  - Spend it all
+  - Save some, then budget
+  - Lend it away
+  correctIndex: 1
+  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  completedMarker: {fileID: 0}
+  stationRenderer: {fileID: 0}
+  completedColor: {r: 0, g: 1, b: 0, a: 1}
+  correctSound: {fileID: 0}
+--- !u!65 &1307249608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307249604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11727598, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.0066692764, y: 0.2273967, z: 0.015538223}
+--- !u!65 &1307249609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307249604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11727598, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.0066692764, y: 0.2273967, z: 0.015538223}
 --- !u!1001 &1316596199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9506,6 +9609,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4998339441236886, guid: 7d65db92ee1ad5644a8177816885460b, type: 3}
   m_PrefabInstance: {fileID: 1700029811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1703817680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1011637184931104, guid: eb1f778dad1ad1243a12348ffbf99b9b, type: 3}
+  m_PrefabInstance: {fileID: 195150202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1703817683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703817680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillStation
+  stationName: Budgeting
+  question: You get paid. What should you do FIRST?
+  answers:
+  - Spend it all
+  - Save some, then budget
+  - Lend it away
+  correctIndex: 1
+  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  completedMarker: {fileID: 0}
+  stationRenderer: {fileID: 0}
+  completedColor: {r: 0, g: 1, b: 0, a: 1}
+  correctSound: {fileID: 0}
+--- !u!65 &1703817684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703817680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11727604, y: 0.46403986, z: 0.29579806}
+  m_Center: {x: -0.006669654, y: 0.22739717, z: 0.015538217}
+--- !u!65 &1703817685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703817680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11727604, y: 0.46403986, z: 0.29579806}
+  m_Center: {x: -0.006669654, y: 0.22739717, z: 0.015538217}
 --- !u!1001 &1737362671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9908,7 +10082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Name
-      value: book (2)
+      value: Reading/Literacy
       objectReference: {fileID: 0}
     - target: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
       propertyPath: m_Layer
@@ -9965,13 +10139,88 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891273599}
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891273598}
+    - targetCorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891273597}
   m_SourcePrefab: {fileID: 100100000, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
 --- !u!4 &1891273594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4045696219899550, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
   m_PrefabInstance: {fileID: 1891273593}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1891273597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014626437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillStation
+  stationName: Budgeting
+  question: You get paid. What should you do FIRST?
+  answers:
+  - Spend it all
+  - Save some, then budget
+  - Lend it away
+  correctIndex: 1
+  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  completedMarker: {fileID: 0}
+  stationRenderer: {fileID: 0}
+  completedColor: {r: 0, g: 1, b: 0, a: 1}
+  correctSound: {fileID: 0}
+--- !u!65 &1891273598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014626437}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.117276, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.006669396, y: 0.22739622, z: 0.015538223}
+--- !u!65 &1891273599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014626437}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.117276, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.006669396, y: 0.22739622, z: 0.015538223}
 --- !u!1001 &1948056410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11228,6 +11477,77 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1 &1971600494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1948190051743874, guid: 924e5835feca5774baf83fefc095dad6, type: 3}
+  m_PrefabInstance: {fileID: 627591246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1971600497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971600494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb22a2413cfe14dd5982eb367041023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillStation
+  stationName: Budgeting
+  question: You get paid. What should you do FIRST?
+  answers:
+  - Spend it all
+  - Save some, then budget
+  - Lend it away
+  correctIndex: 1
+  teachingNote: Saving first builds stability. This is the foundation of budgeting.
+  completedMarker: {fileID: 0}
+  stationRenderer: {fileID: 0}
+  completedColor: {r: 0, g: 1, b: 0, a: 1}
+  correctSound: {fileID: 0}
+--- !u!65 &1971600498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971600494}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.117276, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.0066696345, y: 0.22739622, z: 0.015538223}
+--- !u!65 &1971600499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971600494}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.117276, y: 0.46403986, z: 0.295798}
+  m_Center: {x: -0.0066696345, y: 0.22739622, z: 0.015538223}
 --- !u!1001 &1978924069
 PrefabInstance:
   m_ObjectHideFlags: 0
