@@ -20,6 +20,7 @@ public class SkillStation : MonoBehaviour
 
     [Header("Optional Audio (beyond-module extra)")]
     public AudioSource correctSound;
+    public AudioSource wrongSound;
 
     public bool IsCompleted { get; private set; }
 
@@ -49,6 +50,7 @@ public class SkillStation : MonoBehaviour
         }
         else
         {
+            if (wrongSound != null) wrongSound.Play();
             uiManager.ShowFeedback(false, "Not quite. Try again - think long term.");
         }
     }
