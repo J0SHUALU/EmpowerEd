@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
 
     [Header("Win Screen")]
     public GameObject winPanel;
+    public AudioSource winSound;
 
     [Header("First Person Controller")]
     [Tooltip("Drag the Mini FPC player root here so we can pause look/move during a lesson.")]
@@ -129,6 +130,7 @@ public class UIManager : MonoBehaviour
         HideHint();
 
         if (winPanel != null) winPanel.SetActive(true);
+        if (winSound != null) winSound.Play();
         SetGameplayActive(false);   
         Time.timeScale = 0f;
     }
