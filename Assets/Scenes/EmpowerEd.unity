@@ -9254,7 +9254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1181937107
 Transform:
   m_ObjectHideFlags: 0
@@ -9263,13 +9263,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181937106}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0051151495, y: -0.7070883, z: 0.7070883, w: 0.0051151495}
-  m_LocalPosition: {x: 387, y: 318, z: -8.75}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 3.6, z: 3}
   m_LocalScale: {x: 4.975, y: 1, z: 3.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1500207622}
-  m_LocalEulerAnglesHint: {x: 89.171, y: -90, z: 90}
+  m_Father: {fileID: 1958783001}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!199 &1181937108
 ParticleSystemRenderer:
   serializedVersion: 7
@@ -15190,7 +15190,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1362839590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 857285461}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1362839590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16394,7 +16406,6 @@ Transform:
   - {fileID: 1651753765}
   - {fileID: 1222768483}
   - {fileID: 90789274}
-  - {fileID: 1181937107}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1517556402
@@ -19515,7 +19526,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1181937107}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       insertIndex: -1
