@@ -18,7 +18,7 @@ public class SkillStation : MonoBehaviour
     public Renderer stationRenderer;     
     public Color completedColor = Color.green;
 
-    [Header("Optional Audio (beyond-module extra)")]
+    [Header("Audio Feedback")]
     public AudioSource correctSound;
     public AudioSource wrongSound;
 
